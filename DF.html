@@ -1,0 +1,127 @@
+<!DOCTYP html>
+
+<html lang="fr">
+    <head>
+        <title>Barre de navigation</title>
+    </head>
+    <body>
+
+        <header>
+            <!--utiliser des balises sémantiques-->
+           <h1>Bienvenu a ma page Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Section 1</a></li>
+                    <li><a href="#section2">Section 2</a></li>
+                    <li><a href="#formulaire">Formulaire</a></li>
+                </ul>
+           </nav>
+        </header>
+        
+        <main>
+            <!--ajouter une vidéo/audio à la page Web-->
+            <section id="section1">
+                <h2>Section 1: Photo</h2>
+                <img Exercice source src="c:\Users\ALIOU ZEYBAKH\Desktop\Nouveau dossier\the exercice.PNG" type="image/PNG"/>
+            </section>
+        <!--utiliser des liens locaux, des listes ou des tableaux-->
+            <section id="section1">
+                <h2>Section 2: Liste et Tableau</h2>
+                <h3>Liste de mes livres preferés</h3> 
+                <ul>
+                    <li>Reflechissez et devenez riches</li>
+                    <li>Une si longue lettre</li>
+                    <li>comment se faire des amis</li>
+                </ul>
+        
+                <h4>Tableau des resultats</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matière</th>
+                            <th>Note</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>sciences physiques</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Anglais</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Histo-Geo</td>
+                            <td>19</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br>
+
+        <!--utiliser des formulaires HTML-->
+            <section id="formulaire"
+                <h5>Formulaire de contact</h5>
+                <form acion="/submit" methode="post">
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" reqiired>
+
+                    <br>
+                    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <br>
+                    
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <br>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            
+            <P>&copy; Mon SITE Web</P>
+        </footer>
+        
+<!-- Créer la barre de navigation : accueil, à propos, travail, CV, contact-->
+       <nav class="navbar">
+        <ul class="navlist">
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#A-propos">A prpopos</a></li>
+            <li><a href="#Travail">Travail</a></li>
+            <li><a href="#CV">CV</a></li>
+            <li><a href="#Contact">Contact</a></li>
+
+        </ul>
+       </nav>
+       
+<!--Créer la section « à propos », la section « travail », la section « CV » et la section « contact » (en utilisant des formulaires HTML) -->
+       <select>
+        <option value="A propos">A propos</option>
+        <option value="Travail">Travail</option>
+        <option value="CV">CV</option>
+        <option value="Contact">Contact</option>
+       </select>
+<!--Créer un pied de page-->
+       <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; Votre Nom. tous droits reservés.</p>
+            <ul class="Social-link"></ul>
+                 <li><a href="https://facebook.com" target="_blank" aria-label="facebook">facebook</a></li>
+                 <li><a href="https://twitter.com" target="_blank" aria-label="twitter">twitter</a></li>
+                 <li><a href="https://linkedin.com" target="_blank" aria-label="linkedin">linkedin</a></li>
+            </ul>
+            <p><a href=#Contact>Contactez-nous</a></p>
+        </div>
+       </footer>
+    
+    </body>
+</html>
